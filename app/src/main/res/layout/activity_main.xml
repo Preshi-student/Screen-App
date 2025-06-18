@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="217dp"
+        android:layout_height="70dp"
+        android:text="ScreenSmartApp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/myNameTxt"
+        android:layout_width="217dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="46dp"
+        android:text="Precious Mbabazi"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/studnTxt"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/studnTxt"
+        android:layout_width="215dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="420dp"
+        android:text="ST10470248"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="143dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="292dp"
+        android:text="Clear"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/exitBtn" />
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="152dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="300dp"
+        android:text="Exit"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="193dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="134dp"
+        android:text="Next"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
